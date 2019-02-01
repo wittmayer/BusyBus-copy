@@ -1,0 +1,113 @@
+/*
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+*/
+body{
+  font-size: 16px;
+  font-family: 'PT Sans', Verdana, Arial, sans-serif;
+  line-height: 1.2em;
+  background-color: #efefef;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight:normal;
+  color: #FFFFFF;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+}
+
+p {
+  display: inline-block;
+}
+
+ul {
+  height: auto;
+  display: inline-block;
+  line-height: 2em;
+  font-size: .8em;
+}
+
+.eastbound , .southbound , .northbound , .reroute , .out-of-service {
+  display:block;
+  vertical-align: top;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+  box-shadow: 0px 2px 5px 0px #adadad;
+  padding: 10px;
+  margin: 5px;
+  background-color: #FFFFFF;
+}
+
+.icon {
+  max-height: 10px;
+  max-width: 10px;
+  background-color: #01579B;
+  padding: 3px;
+  border-radius: 2px;
+  display: inline;
+  vertical-align: text-bottom;
+}
+
+.system-icon {
+  float: right;
+  margin: 10px;
+  display: block;
+}
+
+.app-bar {
+  background-color: #01579B;
+  display: inline-block;
+  width: 100%;
+  box-shadow: 0px 2px 5px 0px #adadad;
+}
+
+#search {
+  float: right;
+  margin: 10px;
+}
+
+#menu {
+  margin: 10px;
+}
+
+/* Alignment for line, destination, and frequency text.
+I'm guessing the grid would be abetter way of doing this,
+but I'm not very familiar with that yet. */
+
+.destination , .frequency {
+  width: 10%;
+}
+
+.line {
+  margin: 5px;
+}
+
+.northbound .frequency {
+  margin-right: 43px;
+}
+
+.southbound .frequency {
+  margin-right: 6px;
+}
+
+.reroute .destination {
+  margin-right: 9px;
+}
+
+.reroute .frequency {
+  margin-right: 5px;
+}
+
+.out-of-service .frequency {
+  margin-right: 5px;
+}
