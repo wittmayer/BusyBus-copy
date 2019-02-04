@@ -12,130 +12,66 @@
   <img src="images/system-icons.png" class= system-icon alt="system icons bar">
   <div class=app-bar>
     <img src="images/menu-icon.png" id= menu alt= "hamburger menu">
-    <h1>BusyBus Route Data</h1>
-    <img src=images/search-icon.png id= search alt= "search button">
+    <h1>Washington & State</h1>
+    <img src=images/clock.png id= navigation alt = "route times">
+    <img src=images/heart.png id= navigation alt= "favorite button">
+    <img src=images/search-icon.png id= navigation alt= "search button">
   </div>
-  <div class="eastbound">
-    <h2>Eastbound</h2>
-    <ul>
-      <li><img src= "images/bus-icon.png" class= icon></li>
-      <!---Final Projects/Frontend-Challenge/images/bus-icon.png--->
-      <li><img src= "images/bus-icon.png" class= icon></li>
-    </ul>
-    <p class= line>
-      <ul>
-        <li>60</li>
-        <li>124</li>
-      </ul>
-    </p>
-    <p class= destination>
-      <ul>
-        <li>Randolph / Harbor Dr</li>
-        <li>Navy Pier</li>
-      </ul>
-    </p>
-    <p class= frequency>
-      <ul>
-        <li>Every 20 minutes</li>
-        <li>Every 10 minutes</li>
-      </ul>
-    </p>
-  </div>
-  <div class="northbound">
-    <h2>Northbound</h2>
-    <ul>
-      <li><img src= "images/bus-icon.png" class= icon></li>
-    </ul>
-    <p class= line>
-      <ul>
-        <li>151</li>
-      </ul>
-    </p>
-    <p class= destination>
-      <ul>
-        <li>Devon / Clark</li>
-      </ul>
-    </p>
-    <p class= frequency>
-      <ul>
-        <li>Every 16 minutes</li>
-      </ul>
-    </p>
-  </div>
-  <div class="southbound">
-    <h2>Southbound</h2>
-    <ul>
-      <li><img src= "images/bus-icon.png" class= icon></li>
-      <li><img src= "images/bus-icon.png" class= icon></li>
-    </ul>
-    <p class= line>
-      <ul>
-        <li>J14</li>
-        <li>124</li>
-      </ul>
-    </p>
-    <p class= destination>
-      <ul>
-        <li>103rd / Stony Island</li>
-        <li>Navy Pier</li>
-      </ul>
-    </p>
-    <p class= frequency>
-      <ul>
-        <li>Every 15 minutes</li>
-        <li>Every 10 minutes</li>
-      </ul>
-    </p>
-  </div>
-  <div class="reroute">
-    <h2>Reroute</h2>
-    <ul>
-      <li><img src= "images/bus-icon.png" class= icon></li>
-    </ul>
-    <p class= line>
-      <ul>
-        <li>6x</li>
-      </ul>
-    </p>
-    <p class= destination>
-      <ul>
-        <li>Jackson Park Express</li>
-      </ul>
-    </p>
-    <p class= frequency>
-      <ul>
-        <li>N/A</li>
-      </ul>
-    </p>
-  </div>
-  <div class="out-of-service">
-    <h2>Out of Service</h2>
-    <ul>
-      <li><img src= "images/bus-icon.png" class= icon></li>
-      <li><img src= "images/bus-icon.png" class= icon></li>
-      <li><img src= "images/bus-icon.png" class= icon></li>
-    </ul>
-    <p class= line>
-      <ul>
-        <li>4</li>
-        <li>20</li>
-        <li>157</li>
-      </ul>
-    </p>
-    <p class= destination>
-      <ul>
-        <li>Cottage Grove</li>
-        <li>Madison</li>
-        <li>Streeterville / Taylor</li>
-      </ul>
-    </p>
-    <p class= frequency>
-      <ul>
-        <li>Resumes 12:10am</li>
-        <li>Resumes 12:10am</li>
-        <li>Resumes 6:00am</li>
-      </ul>
-    </p>
-  </div>
+  <img src=images/map.jpg class=map alt="map of bus station">
+  <main class="routes">
+    <section>
+      <h2 class="line">60</h2>
+      <h2> - Randolph / Harbor Dr</h2>
+      <h2 class=direction>Eastbound</h2>
+      <h3>Every 20 min</h3>
+    </section>
+    <section>
+      <h2 class="line">124</h2>
+      <h2> - Navy Pier</h2>
+      <h2 class=direction>Eastbound</h2>
+      <h3>Every 10 min</h3>
+    </section>
+    <section>
+      <h2 class="line">151</h2>
+      <h2> - Devon / Clark</h2>
+      <h2 class=direction>Northbound</h2>
+      <h3>Every 16 min</h3>
+    </section>
+    <section>
+      <h2 class=line>J14</h2>
+      <h2> - 103rd / Stony Island</h2>
+      <h2 class=direction>Southbound</h2>
+      <h3>Every 15 min</h3>
+    </section>
+    <section>
+      <h2 class=line>124</h2>
+      <h2> - Navy Pier</h2>
+      <h2 class=direction>Southbound</h2>
+      <h3>Every 10 min</h3>
+    </section>
+    <section>
+      <h2 class=line>6x</h2>
+      <h2> - Jackson Park Express</h2>
+      <h2 class=not-running>Reroute</h2>
+      <h3>N/A</h3>
+    <section>
+      <h2 class=line>4</h2>
+      <h2> - Cottage Grove</h2>
+      <h2 class=not-running>Out of Service</h2>
+      <h3>Resumes 12:10 am</h3>
+    </section>
+    <section>
+      <h2 class=line>20</h2>
+      <h2> - Maddison</h2>
+      <h2 class=not-running>Out of Service</h2>
+      <h3>Resumes 12:10 am</h3>
+    </section>
+    <section>
+      <h2 class=line>157</h2>
+      <h2> - Streeterville / Taylor</h2>
+      <h2 class=not-running>Out of Service</h2>
+      <h3>Resumes 6:00 am</h3>
+    </section>
+  </main>
 </body>
 </html>
