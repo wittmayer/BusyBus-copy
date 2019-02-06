@@ -102,8 +102,12 @@ ul {
 #navigation {
   float: right;
   margin: 10px;
+  box-shadow: 0px;
+  width: 25px;
 }
 
 #menu {
   margin: 10px;
+  box-shadow: 0px;
+  width: 25px;
 }
