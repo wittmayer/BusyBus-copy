@@ -107,36 +107,3 @@ ul {
 #menu {
   margin: 10px;
 }
-
-/* Alignment for line, destination, and frequency text.
-I'm guessing the grid would be abetter way of doing this,
-but I'm not very familiar with that yet.
-
-.destination , .frequency {
-  width: 10%;
-}
-
-.line {
-  margin: 5px;
-}
-
-.northbound .frequency {
-  margin-right: 43px;
-}
-
-.southbound .frequency {
-  margin-right: 6px;
-}
-
-.reroute .destination {
-  margin-right: 9px;
-}
-
-.reroute .frequency {
-  margin-right: 5px;
-}
-
-.out-of-service .frequency {
-  margin-right: 5px;
-}
- */
